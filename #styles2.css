@@ -1,0 +1,94 @@
+html {
+    font-size: 10px;
+}
+@media screen and (max-width:400px) {
+    html {
+        font-size: 9.411764705882353px;
+      }
+    }
+html,
+body {
+      height: 100%;
+    }
+body {
+    background: #050505;
+    font-family: "Lora", serif;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.882;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+    }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+margin-top: 6rem;
+margin-bottom: 1.6rem;
+}
+@media screen and (max-width:600px) {
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+      margin-top: 6rem;
+    }
+  }
+  
+h5, .h5, h6, .h6 {
+    margin-top: 4.8rem;
+    margin-bottom: 1.2rem;
+  }
+      
+@media screen and (max-width:600px) {
+    h5, .h5, h6, .h6 {
+      margin-top: 4rem;
+      margin-bottom: 0.8rem;
+    }
+      
+  }
+      
+  h1, .h1 {
+    font-size: 3.6rem;
+    line-height: 1.222;
+    letter-spacing: -.1rem;
+  }
+      
+@media screen and (max-width:600px) {
+    h1, .h1 {
+      font-size: 3.3rem;
+      letter-spacing: -.07rem;
+    }
+      
+  }
+      
+  h2, .h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+      
+  h3, .h3 {
+    font-size: 2.4rem;
+    line-height: 1.1667;
+  }
+      
+  h4, .h4 {
+    font-size: 2.1rem;
+    line-height: 1.286;
+  }
+      
+  h5, .h5 {
+    font-size: 1.8rem;
+    line-height: 1.333;
+  }
+      
+  h6, .h6 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .16rem;
+  }
